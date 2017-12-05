@@ -276,10 +276,6 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-desandro-matches-selector@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/desandro-matches-selector/-/desandro-matches-selector-2.0.2.tgz#717beed4dc13e7d8f3762f707a6d58a6774218e1"
-
 duplexer@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -318,10 +314,6 @@ es6-promise@^3.0.2:
 escape-string-regexp@^1.0.2:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-
-ev-emitter@^1.0.1, ev-emitter@^1.0.2:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ev-emitter/-/ev-emitter-1.1.1.tgz#8f18b0ce5c76a5d18017f71c0a795c65b9138f2a"
 
 event-stream@~3.3.0:
   version "3.3.4"
@@ -381,23 +373,6 @@ find-up@^1.0.0:
   dependencies:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
-
-fizzy-ui-utils@^2.0.0:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-2.0.5.tgz#d72debc74d2c9d272dbcbb7b001707897f6c3210"
-  dependencies:
-    desandro-matches-selector "^2.0.0"
-
-flickity@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/flickity/-/flickity-2.0.9.tgz#5932d33d4fe009c66621644d3f373400f90e7695"
-  dependencies:
-    desandro-matches-selector "^2.0.0"
-    ev-emitter "^1.0.2"
-    fizzy-ui-utils "^2.0.0"
-    get-size "^2.0.0"
-    tap-listener "^2.0.0"
-    unidragger "^2.2.3"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -475,10 +450,6 @@ gaze@^1.0.0:
 get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
-
-get-size@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/get-size/-/get-size-2.0.2.tgz#555ea98ab8732e0c021e9e23e2219adcbe398e98"
 
 get-stdin@^4.0.1:
   version "4.0.1"
@@ -1559,12 +1530,6 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-tap-listener@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tap-listener/-/tap-listener-2.0.0.tgz#d2e11d0d8e7c92b26a56ae4f35538a248b44ad63"
-  dependencies:
-    unipointer "^2.1.0"
-
 tar-pack@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/tar-pack/-/tar-pack-3.4.0.tgz#23be2d7f671a8339376cbdb0b8fe3fdebf317984"
@@ -1627,18 +1592,6 @@ uid-number@^0.0.6:
 undefsafe@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-0.0.3.tgz#ecca3a03e56b9af17385baac812ac83b994a962f"
-
-unidragger@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/unidragger/-/unidragger-2.2.3.tgz#a618801b9b629e1045e3d3793713e7add0a1e16b"
-  dependencies:
-    unipointer "^2.2.0"
-
-unipointer@^2.1.0, unipointer@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/unipointer/-/unipointer-2.2.0.tgz#3f6cf997f7d7dc78f75385106a5527efc5d71b61"
-  dependencies:
-    ev-emitter "^1.0.1"
 
 update-notifier@0.5.0:
   version "0.5.0"

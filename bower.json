@@ -1,0 +1,19 @@
+{
+  "name": "html-scss-browser-sync",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mohit Virli <virlimohit@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mohitvirli/html-scss-browsersync",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib/",
+    "test",
+    "tests"
+  ]
+}
